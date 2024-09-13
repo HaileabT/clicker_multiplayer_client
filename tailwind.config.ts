@@ -16,6 +16,13 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+
+      keyframes: {
+        //animation definition
+      },
+      animation: {
+        //animation usage
+      },
     },
   },
   plugins: [],
