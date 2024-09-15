@@ -36,7 +36,7 @@ export default function GameBoard(){
            <PlayerName />
            <GamePlace LeftUser={LeftUser} RightUser={RightUser} width={width} />
            <div className="flex justify-center">
-            <button className="bg-bg_secondary px-8 py-2 text-lg font-extrabold text-bg_black shadow-[0.4rem_0.4rem_#262322]">Quit</button>
+            <button className="bg-bg_secondary px-8 py-2 text-lg font-extrabold text-bg_black shadow-[0.3rem_0.3rem_#262322]">Quit</button>
            </div>
         </div>
     );
