@@ -32,7 +32,7 @@ export default function GameBoard(){
  }
 
     return (
-        <div className="flex h-full flex-col gap-[2.5rem] bg-bg_primary shadow-[0.6rem_0.6rem_#262322] p-10">
+        <div className="flex h-full flex-col gap-[2.5rem] bg-bg_primary shadow-[0.5rem_0.5rem_#262322] p-10">
            <PlayerName />
            <GamePlace LeftUser={LeftUser} RightUser={RightUser} width={width} />
            <div className="flex justify-center">
