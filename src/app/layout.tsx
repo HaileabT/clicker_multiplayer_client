@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased, ${inter.className} h-[100svh] overflow-hidden flex justify-center bg-bg_white`}
+        className={`antialiased, ${inter.className} h-[100svh] overflow-hidden flex justify-center bg-bg_white py-[3.5rem]`}
       >
         {children}
       </body>
