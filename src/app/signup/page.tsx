@@ -1,10 +1,10 @@
 import ContentContainer from "@/components/ContentContainer";
-import SigninContent from "@/components/signin/SignInContent";
+import SignupContent from "@/components/signup/SignupContent";
 
-export default function SignInPage() {
+export default function SignupPage() {
   return (
     <div className="w-[calc(100%-10rem)] flex flex-col gap-[2.5rem] max-w-[100rem] h-full p-10">
-      <ContentContainer component={SigninContent} props={{age: 10}} />
+      <ContentContainer component={SignupContent} props={{age: 10}} />
     </div>
   )
 }
