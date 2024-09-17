@@ -19,14 +19,23 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       boxShadow: {
-        'bottom-left': '10px 10px 10px rgba(0, 0, 0, 1)', // Customize offset and blur here
+        'bottom-left': '10px 10px 10px rgba(0, 0, 0, 1)', 
       },
 
       keyframes: {
-        //animation definition
+        bounce: {
+          '0%, 100%': {
+            transform: 'translateY(-50%)', 
+            animationTimingFunction: 'cubic-bezier(0.8, 0, 1, 1)',
+          },
+          '50%': {
+            transform: 'translateY(0)', 
+            animationTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)',
+          },
+        },
       },
       animation: {
-        //animation usage
+        bounce: 'bounce 1s infinite',
       },
     },
   },
