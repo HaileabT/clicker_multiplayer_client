@@ -1,6 +1,6 @@
 import ContentContainer from "@/components/ContentContainer";
 import EnterMode from "@/components/home/EnterMode";
-import Menu from "@/components/Menu";
+// import Menu from "@/components/Menu";
 
 export default async function Home() {
 
